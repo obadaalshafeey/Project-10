@@ -30,7 +30,7 @@ Route::get('/resrvition/id/{room_id}',[RoomsController::class,'room']);
 Route::get('/book1',[RoomsController::class,'book1']);
 Route::post('/book1',[BookingController::class,'book1']);
 Route::get('/book2',[RoomsController::class,'book2']);
-
+Route::post('/book22',[RoomsController::class,'book22']);
 
 Auth::routes();
 

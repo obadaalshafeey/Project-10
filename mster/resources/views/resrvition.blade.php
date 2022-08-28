@@ -33,10 +33,10 @@
 </h5>
 <br><br>
 <br>
-<div class="container" style="position: absolute; right: -250px;">
+<div class="container"  style=" text-align: center;">
   @foreach ($data3 as $serv)
       
-    {{$serv->service_name}} <i   class="{{$serv->service_icons}}"></i>
+    <p> <i  class="{{$serv->service_icons}}"></i> {{$serv->service_name}}</p>
     
     
     @endforeach

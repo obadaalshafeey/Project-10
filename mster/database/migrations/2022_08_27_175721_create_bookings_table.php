@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('bookings', function (Blueprint $table) {
             $table->id();
             $table->date('check_in');
-            $table->date('check_out');
+            $table->date('check_out')->nullable();
             $table->integer('adults');
             $table->integer('children');
             $table->integer('rooms_id');

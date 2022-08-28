@@ -26,7 +26,7 @@ class BookingController extends Controller
         $request->session()->put('children', $request->children);
 
 
-        return redirect("book1")->with('data', $data);
+        return redirect("book2")->with('data', $data);
 
 
 
