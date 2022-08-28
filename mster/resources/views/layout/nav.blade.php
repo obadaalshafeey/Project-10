@@ -1,9 +1,4 @@
-<!-- Preloader -->
-{{-- <div class="preloader d-flex align-items-center justify-content-center">
-    <div class="cssload-container">
-        <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
-    </div>
-</div> --}}
+
 
 <!-- ##### Header Area Start ##### -->
 <header class="header-area">
@@ -15,85 +10,38 @@
                 <nav class="classy-navbar justify-content-between" id="palatinNav">
 
                     <!-- Nav brand -->
-                    <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                    <a href="index.html" class="nav-brand"><img style="width: 100px;"src="https://cdn.discordapp.com/attachments/986725547860168725/1013513968544915486/NUZOL_free-file.png" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
-                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        <span class="navbarToggler"><span>
                     </div>
 
                     <!-- Menu -->
                     <div class="classy-menu">
 
                         <!-- close btn -->
-                        <div class="classycloseIcon">
-                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                        </div>
-
+                       
+<style>
+  
+</style>
                         <!-- Nav Start -->
-                        <div class="classynav">
+                        <div class="classynav" id="btn">
                             <ul>
-                                <li ><a href="index.html">Home</a></li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li ><a href="#">Pages</a>
-                                    <ul  class="dropdown" >
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li class="active"><a href="rooms.html">Rooms</a></li>
-                                        <li><a href="blog.html">News</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="elements.html">Elements</a></li>
-                                    </ul>
+                                <li class="btn"><a href="index.html">Home</a></li>
+                                <li class="btn"><a href="{{ url("AboutUs")}}">About Us</a></li>
+                                <li class="btn"><a href="{{ url("room")}}">Rooms</a></li>
+                                <li class="btn"><a href="contact.html">Contact</a></li>
+
+                                   
                                 </li>
-                                <li><a href="#">Mega Menu</a>
-                                    <div class="megamenu">
-                                        <ul class="single-mega cn-col-4">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="rooms.html">Rooms</a></li>
-                                            <li><a href="blog.html">News</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
-                                        </ul>
-                                        <ul class="single-mega cn-col-4">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="rooms.html">Rooms</a></li>
-                                            <li><a href="blog.html">News</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
-                                        </ul>
-                                        <ul class="single-mega cn-col-4">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="rooms.html">Rooms</a></li>
-                                            <li><a href="blog.html">News</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
-                                        </ul>
-                                        <ul class="single-mega cn-col-4">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="rooms.html">Rooms</a></li>
-                                            <li><a href="blog.html">News</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                               
+                                    
+                               
+                                
                             </ul>
 
                             <!-- Button -->
-                            <div class="menu-btn">
-                                <a href="#" class="btn palatin-btn">Make a Reservation</a>
-                            </div>
 
                         </div>
                         <!-- Nav End -->

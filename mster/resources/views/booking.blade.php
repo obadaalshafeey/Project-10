@@ -41,46 +41,60 @@
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam numquam at</p>
 							</div>
 						</div>
-						<form>
+						<form action="/book1" method="POST">
+							@csrf
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<span class="form-label">Check In</span>
-										<input class="form-control" type="date" required>
+										<span class="form-label">date</span>
+										<input class="form-control" type="date" required name="check_in"  >
+										@error('check_in')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
+
 									</div>
 								</div>
-								<div class="col-md-6">
+								{{-- <div class="col-md-6">
 									<div class="form-group">
 										<span class="form-label">Check Out</span>
-										<input class="form-control" type="date" required>
+										<input class="form-control" type="date" required name="check_out">
+										@error('check_out')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
 									</div>
-								</div>
+								</div> --}}
 							</div>
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
 										<span class="form-label">Adults</span>
-										<select class="form-control">
+										<select class="form-control" name="adults">
 											<option>1</option>
 											<option>2</option>
 											<option>3</option>
 										</select>
+										@error('adults')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
 										<span class="select-arrow"></span>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
 										<span class="form-label">Children</span>
-										<select class="form-control">
+										<select class="form-control" name="children">
 											<option>0</option>
 											<option>1</option>
 											<option>2</option>
 										</select>
+										@error('children')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
 										<span class="select-arrow"></span>
 									</div>
 								</div>
 							</div>
-							<div class="form-group">
+							{{-- <div class="form-group">
 								<span class="form-label">Room Type</span>
 								<select class="form-control" required>
 									<option value="" selected hidden>Select room type</option>
@@ -88,9 +102,9 @@
 									<option>Family Room (1 to 4 People)</option>
 								</select>
 								<span class="select-arrow"></span>
-							</div>
+							</div> --}}
 							<div class="form-btn">
-								<button class="submit-btn">Check availability</button>
+								<button class="submit-btn" type="submit">Check availability</button>
 							</div>
 						</form>
 					</div>
@@ -98,6 +112,11 @@
 			</div>
 		</div>
 	</div>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+	@if(Session::has('data'))
+	<p>{{Session::get('data')}}</p>
+	@endif 
+		
+	
+</body>
 
 </html>

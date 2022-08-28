@@ -13,9 +13,9 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-6">
                     <div class="section-heading text-center">
-                        <div class="line-"></div>
+                        {{-- <div class="line-"></div> --}}
+                        <br><br><br>
                         <h2>Choose the apartment you like</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
                     </div>
                 </div>
             </div>

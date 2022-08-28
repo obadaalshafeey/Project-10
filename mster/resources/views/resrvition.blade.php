@@ -36,7 +36,7 @@
 <div class="container" style="position: absolute; right: -250px;">
   @foreach ($data3 as $serv)
       
-    {{$serv->service_name}} <i  class="{{$serv->service_icons}}"></i>
+    {{$serv->service_name}} <i   class="{{$serv->service_icons}}"></i>
     
     
     @endforeach
@@ -47,16 +47,15 @@
 
 
 
-<br><br><br><br><br>
 
 
 
     <!-- ##### Breadcumb Area Start ##### -->
         <div class="bradcumbContent">
-                                   <br><br><br><br><br><br><br><br>   
+                               
                             
                
-   <a href="./boo;ing.html"><div style="margin-left:60% ;">   <button type="submit">resrviyion</button></div></a> 
+                                   <a href="{{ url('/book1' )}}" ><div style="margin-left:60% ;">   <button type="submit">resrvition</button></div></a> 
 
 
 

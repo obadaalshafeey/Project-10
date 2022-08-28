@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RoomsController;
+use App\Http\Controllers\BookingController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,6 +27,9 @@ Route::get('/', function () {
 // });
 
 Route::get('/resrvition/id/{room_id}',[RoomsController::class,'room']);
+Route::get('/book1',[RoomsController::class,'book1']);
+Route::post('/book1',[BookingController::class,'book1']);
+Route::get('/book2',[RoomsController::class,'book2']);
 
 
 Auth::routes();
@@ -33,7 +38,12 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/room',[RoomsController::class,'rooms'])->name('room');
 
-Route::get('/booking', function () {
-    return view('booking');
+// Route::get('/booking', function () {
+//     return view('booking');
+// });
+
+Route::get('/AboutUs', function () {
+    return view('AboutUs');
 });
+
 

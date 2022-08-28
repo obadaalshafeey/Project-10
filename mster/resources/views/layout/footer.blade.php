@@ -5,8 +5,8 @@
             <!-- Footer Widget Area -->
             <div class="col-12 col-lg-5">
                 <div class="footer-widget-area mt-50">
-                    <a href="#" class="d-block mb-5"><img src="img/core-img/logo.png" alt=""></a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. </p>
+                    <a href="#" class="d-block mb-5" style="width: 100px"> <img src="https://cdn.discordapp.com/attachments/986725547860168725/1012611852376748072/logo_2_1.png" alt=""></a>
+                    <p>A site to book luxury furnished apartments with ease and enjoyment Enjoy your trips with a Nuzul. </p>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@
             <div class="col-12">
                 <div class="copywrite-text mt-30">
                     <p><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> <i class="fa fa-heart-o" aria-hidden="true"></i> 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                 </div>
             </div>

@@ -35,6 +35,16 @@ class RoomsController extends Controller
         
     }
 
+    public function book1 (){
+
+        return view("booking");
+    }
+    
+    public function book2 (){
+
+        return view("booking2");
+    }
+
 }
 
 
