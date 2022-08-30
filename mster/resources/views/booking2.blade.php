@@ -1,3 +1,9 @@
+@extends('layout.master')
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+@section('content')
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
 <form action="/book22" method='post'>
    @csrf
    @if(Session::get('data'))
@@ -18,7 +24,7 @@
       @endforeach
       @endif
       @if($c == true)
-      <div class="form-check">
+      <div class="">
         <input class="form-check-input" type="radio" name="rooms_id" id="exampleRadios1" value="{{$i->id}}" >
         <label class="form-check-label" for="exampleRadios1">
        {{ $i->id}}  {{ $i->name}}
@@ -51,3 +57,4 @@
       </div>
       <button type='submit'>Sumbit</button>
 </form>
+@endsection

@@ -10,7 +10,7 @@
                 <nav class="classy-navbar justify-content-between" id="palatinNav">
 
                     <!-- Nav brand -->
-                    <a href="index.html" class="nav-brand"><img style="width: 100px;"src="https://cdn.discordapp.com/attachments/986725547860168725/1013513968544915486/NUZOL_free-file.png" alt=""></a>
+                    <a href="index.html" class="nav-brand"><img style="width: 100px;"src="https://cdn.discordapp.com/attachments/986725547860168725/1012611852376748072/logo_2_1.png" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -21,6 +21,7 @@
                     <div class="classy-menu">
 
                         <!-- close btn -->
+                        <!-- CSS only -->
                        
 <style>
   
@@ -28,10 +29,11 @@
                         <!-- Nav Start -->
                         <div class="classynav" id="btn">
                             <ul>
-                                <li class="btn"><a href="index.html">Home</a></li>
-                                <li class="btn"><a href="{{ url("AboutUs")}}">About Us</a></li>
+                                <li class="btn"><a href="{{ url("landeing")}}">Home </a></li>
+
                                 <li class="btn"><a href="{{ url("room")}}">Rooms</a></li>
-                                <li class="btn"><a href="contact.html">Contact</a></li>
+                                <li class="btn"><a href="{{ url("AboutUs")}}">About Us</a></li>
+                                <li class="btn"><a href="{{ url("ContactUs")}}">ContactUs</a></li>
 
                                    
                                 </li>

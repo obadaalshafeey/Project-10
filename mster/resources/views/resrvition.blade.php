@@ -1,5 +1,7 @@
 @extends('layout.master')
 @section('content')
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
 <br><br><br><br><br><br><br><br>
 <h3 class="container">{{$data->name}} </h3>
@@ -45,17 +47,27 @@
 
 </div>
 
-
-
-
-
-
-    <!-- ##### Breadcumb Area Start ##### -->
-        <div class="bradcumbContent">
+    <div class="bradcumbContent">
                                
                             
                
-                                   <a href="{{ url('/book1' )}}" ><div style="margin-left:60% ;">   <button type="submit">resrvition</button></div></a> 
+    
+  <div class="center">
+     <a href="{{ url('/book1' )}}"><button type="button" class="btn btn-secondary">resrvition</button></a>
+</div>
+     <style>
+      .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+
+  
+}
+
+     </style>
+     
+
 
 
 

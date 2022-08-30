@@ -45,5 +45,11 @@ Route::get('/room',[RoomsController::class,'rooms'])->name('room');
 Route::get('/AboutUs', function () {
     return view('AboutUs');
 });
+Route::get('/landeing', function () {
+    return view('landeing');
+});
+Route::get('/ContactUs', function () {
+    return view('ContactUs');
+});
 
 
