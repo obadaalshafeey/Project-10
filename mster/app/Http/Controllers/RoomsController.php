@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Session;
 use Illuminate\Support\Facades\Auth;
-
+use Carbon\Carbon;
 
 
 class RoomsController extends Controller
@@ -56,17 +56,38 @@ class RoomsController extends Controller
             'payment'=>'required',
          
         ]);
+        if ( $request->session()->has('loginin')){
     
         $create=new Booking();
         $create->rooms_id=$request->input('rooms_id');
+      
         $create->payment=$request->input('payment');
-        $create->total_price=$request->input('total_price');
+        $diff =Carbon::parse(session('check_out'))->diffInDays(Carbon::parse(session('check_in')));
+        $room=rooms::find($create->rooms_id);
+        $price=$room->price;
+        
+        $create->total_price=$diff* $price;
         $create->check_in= session('check_in');
+        $create->check_out= session('check_out');
         $create->user_id=Auth::user()->id;
         $create->adults=session('adults');
         $create->children=session('children');
         $create->save();
-return redirect('/room');
+        $request->session()->forget('check_in');
+        $request->session()->forget('check_out');
+        $request->session()->forget('adults');
+        $request->session()->forget('children');
+        $request->session()->forget('payment');
+        $request->session()->forget('rooms_id');
+        $request->session()->forget('data');
+return redirect('/room');}
+else{
+    $request->session()->put('rooms_id',  $request->input('rooms_id'));
+    $request->session()->put('payment',  $request->input('payment'));
+ 
+    $request->session()->put('path',  '/book2');
+    return redirect('/login');
+}
        
     }
 

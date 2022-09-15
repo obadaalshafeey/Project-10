@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/animate.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.booking.css">
+    {{-- <link rel="stylesheet" href="/css/bootstrap.min.booking.css"> --}}
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/classy-nav.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">

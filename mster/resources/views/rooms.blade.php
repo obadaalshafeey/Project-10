@@ -1,12 +1,14 @@
+{{-- 
+    @extends('layout.master')
+    @section('content')
+    @section('css','contact.css') --}}
+  
 
     @extends('layout.master')
     @section('content')
-
-        
-    </div>
-
+  
     
-
+  <x-app-layout>
     <!-- ##### Rooms Area Start ##### -->
     <section class="rooms-area section-padding-0-100">
         <div class="container">
@@ -77,4 +79,5 @@
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    @endsection
+</x-app-layout>
+@endsection

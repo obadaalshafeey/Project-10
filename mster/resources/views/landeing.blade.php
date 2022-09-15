@@ -1,5 +1,15 @@
 @extends('layout.master')
 @section('content')
+<div class="hero" style="background-image: url('https://img.freepik.com/free-photo/arab-people-with-camel-caravan_1004-19.jpg?w=996&t=st=1663005773~exp=1663006373~hmac=c1d7fe4373c783c1b30a458a36a3847b12209c670d915efa6d453a562ae0deb0');">
+<p  style="font-family: 'Courier New', Courier, monospace  ; font-size: 30px;   text-align: center;
+   padding: 350px 0;
+"
+>The world is a book and those who do not travel read only one page</p>
+
+
+</div>
+<br><br><br><br><br><br>
+
 <section class="about-us-area">
     <div class="container">
         <div class="row align-items-center">
@@ -7,15 +17,15 @@
             <div class="col-12 col-lg-6">
                 <div class="about-text text-center mb-100">
                     <div class="section-heading text-center">
-                        <div class="line-"></div>
-                        <h2>A place to remember</h2>
+                        {{-- <div class="line-"></div> --}}
+                        <h2>Nuzol the best</h2>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+                    <p>When you are looking for the best nuzol for you, now choose your apartment and book it .</p>
                     <div class="about-key-text">
-                        <h6><span class="fa fa-check"></span> Donec malesuada lorem maximus mauris sceleri</h6>
-                        <h6><span class="fa fa-check"></span> Malesuada lorem maximus mauris sceleri</h6>
+                        {{-- <h6><span class="fa fa-check"></span> Donec malesuada lorem maximus mauris sceleri</h6>
+                        <h6><span class="fa fa-check"></span> Malesuada lorem maximus mauris sceleri</h6> --}}
                     </div>
-                    <a href="#" class="btn palatin-btn mt-50">Read More</a>
+                    {{-- <a href="#" class="btn palatin-btn mt-50">Read More</a> --}}
                 </div>
             </div>
 
@@ -23,15 +33,56 @@
                 <div class="about-thumbnail homepage mb-100">
                     <!-- First Img -->
                     <div class="first-img wow fadeInUp" data-wow-delay="100ms">
-                        <img src="img/bg-img/5.jpg" alt="">
+                        <img src="https://images.unsplash.com/photo-1544207240-42895ede7c09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8MjcxMzU0NXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
                     </div>
                     <!-- Second Img -->
                     <div class="second-img wow fadeInUp" data-wow-delay="300ms">
-                        <img src="img/bg-img/6.jpg" alt="">
+                        <img src="https://images.unsplash.com/photo-1550252225-69800809ba78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTV8MjcxMzU0NXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
                     </div>
                     <!-- Third Img-->
                     <div class="third-img wow fadeInUp" data-wow-delay="500ms">
-                        <img src="img/bg-img/7.jpg" alt="">
+                        <img src="https://images.unsplash.com/photo-1556593825-c11de986cb0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8MjcxMzU0NXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about-us-area">
+    <div class="container">
+        <div class="row align-items-center">
+
+           
+
+            <div class="col-12 col-lg-6">
+                <div class="about-thumbnail homepage mb-100">
+                    <!-- First Img -->
+                    <div class="first-img wow fadeInUp" data-wow-delay="100ms">
+                        <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxMTE4ODk0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                    </div>
+                    <!-- Second Img -->
+                    <div class="second-img wow fadeInUp" data-wow-delay="300ms">
+                        <img src="https://images.unsplash.com/photo-1558211583-03ed8a0b3d5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHwxMTE4ODk0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                    </div>
+                    <!-- Third Img-->
+                    <div class="third-img wow fadeInUp" data-wow-delay="500ms">
+                        <img src="https://images.unsplash.com/photo-1556185781-a47769abb7ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3wxMTE4ODk0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="about-thumbnail homepage mb-100">
+                    <!-- First Img -->
+                    <div class="first-img wow fadeInUp" data-wow-delay="100ms">
+                        <img src="https://images.unsplash.com/photo-1505577058444-a3dab90d4253?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8MTExODg5NHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                    </div>
+                    <!-- Second Img -->
+                    <div class="second-img wow fadeInUp" data-wow-delay="300ms">
+                        <img src="https://images.unsplash.com/photo-1558211583-d26f610c1eb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjF8MTExODg5NHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                    </div>
+                    <!-- Third Img-->
+                    <div class="third-img wow fadeInUp" data-wow-delay="500ms">
+                        <img src="https://images.unsplash.com/photo-1551029612-9760a92ad772?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjd8MTExODg5NHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
                     </div>
                 </div>
             </div>
@@ -41,18 +92,18 @@
 <!-- ##### About Us Area End ##### -->
 
 <!-- ##### Pool Area Start ##### -->
-<section class="pool-area section-padding-100 bg-img bg-fixed" style="background-image: url(img/bg-img/4.png);">
+<section class="pool-area section-padding-100 bg-img bg-fixed" style="background-image: url(img/bg-img/1212.jpg);">
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-12 col-lg-7">
                 <div class="pool-content text-center wow fadeInUp" data-wow-delay="300ms">
                     <div class="section-heading text-center white">
-                        <div class="line-"></div>
-                        <h2>Infinity Pool</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum.</p>
+                        {{-- <div class="line-"></div> --}}
+                        <h2>Nuzol</h2>
+                        <p>Makes you feel like you are at home. Kitchen utensils can be used as if they were your own, and cooking is a wonderful experience for someone who looks like your home.</p>
                     </div>
 
-                    <div class="row">
+                    {{-- <div class="row">
                         <div class="col-12 col-sm-4">
                             <div class="pool-feature">
                                 <i class="icon-cocktail-1"></i>
@@ -71,7 +122,7 @@
                                 <p>Sunbeds</p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <!-- Button -->
                     <a href="#" class="btn palatin-btn mt-50">Read More</a>
                 </div>
@@ -81,79 +132,9 @@
 </section>
 <!-- ##### Pool Area End ##### -->
 
-<!-- ##### Rooms Area Start ##### -->
-<section class="rooms-area section-padding-100-0">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-6">
-                <div class="section-heading text-center">
-                    <div class="line-"></div>
-                    <h2>Choose a room</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="row justify-content-center">
-
-            <!-- Single Rooms Area -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="single-rooms-area wow fadeInUp" data-wow-delay="100ms">
-                    <!-- Thumbnail -->
-                    <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/1.jpg);"></div>
-                    <!-- Price -->
-                    <p class="price-from">From $150/night</p>
-                    <!-- Rooms Text -->
-                    <div class="rooms-text">
-                        <div class="line"></div>
-                        <h4>Deluxe Room</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
-                    </div>
-                    <!-- Book Room -->
-                    <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                </div>
-            </div>
-
-            <!-- Single Rooms Area -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="single-rooms-area wow fadeInUp" data-wow-delay="300ms">
-                    <!-- Thumbnail -->
-                    <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/8.jpg);"></div>
-                    <!-- Price -->
-                    <p class="price-from">From $150/night</p>
-                    <!-- Rooms Text -->
-                    <div class="rooms-text">
-                        <div class="line"></div>
-                        <h4>Double Suite</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
-                    </div>
-                    <!-- Book Room -->
-                    <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                </div>
-            </div>
-
-            <!-- Single Rooms Area -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="single-rooms-area wow fadeInUp" data-wow-delay="500ms">
-                    <!-- Thumbnail -->
-                    <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/9.jpg);"></div>
-                    <!-- Price -->
-                    <p class="price-from">From $100/night</p>
-                    <!-- Rooms Text -->
-                    <div class="rooms-text">
-                        <div class="line"></div>
-                        <h4>Single Room</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
-                    </div>
-                    <!-- Book Room -->
-                    <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
 <!-- ##### Rooms Area End ##### -->
+<!-- ##### Rooms Area Start ##### -->
 
 <!-- ##### Contact Area Start ##### -->
 <section class="contact-area d-flex flex-wrap align-items-center">

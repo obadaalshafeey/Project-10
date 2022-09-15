@@ -1,42 +1,74 @@
-<footer class="footer-area">
-    <div class="container">
-        <div class="row">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 
-            <!-- Footer Widget Area -->
-            <div class="col-12 col-lg-5">
-                <div class="footer-widget-area mt-50">
-                    <a href="#" class="d-block mb-5" style="width: 100px"> <img src="https://cdn.discordapp.com/attachments/986725547860168725/1012611852376748072/logo_2_1.png" alt=""></a>
-                    <p>A site to book luxury furnished apartments with ease and enjoyment Enjoy your trips with a Nuzul. </p>
-                </div>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="cssfo/bootstrap.min.css">
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="cssfo/style.css">
+
+   
+  </head>
+  <body>
+   
+    
+    <footer class="footer-16371">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-9 text-center">
+            <div class="footer-site-logo mb-4">
+              <a href="#">Nuzol</a>
+            </div>
+            <ul class="list-unstyled nav-links mb-5">
+                <li><a href="{{ url("landeing")}}" class="nav-link active">Home</a></li>
+                <li><a href="{{ url("AboutUs")}}">About Us</a></li>
+                <li >
+                  <a href="{{ url("room")}}">Rooms</a>
+                </li>
+                <li >
+                  <a href="{{ url("ContactUs")}}">ContactUs</a>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
+                <li class="d-lg-none"><a href="login.html">Log In</a></li>
+            </ul>
+
+            <div class="social mb-4">
+              <h3>Stay in touch</h3>
+              <ul class="list-unstyled">
+                <li class="in"><a href="#"><span class="icon-instagram"></span></a></li>
+                <li class="fb"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="tw"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="pin"><a href="#"><span class="icon-pinterest"></span></a></li>
+                <li class="dr"><a href="#"><span class="icon-dribbble"></span></a></li>
+              </ul>
             </div>
 
-            <!-- Footer Widget Area -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="footer-widget-area mt-50">
-                    <h6 class="widget-title mb-5">Find us on the map</h6>
-                    <img src="img/bg-img/footer-map.png" alt="">
-                </div>
+            <div class="copyright">
+              <p class="mb-0"><small>&copy; NUZOL. All Rights Reserved.</small></p>
             </div>
 
-            <!-- Footer Widget Area -->
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="footer-widget-area mt-50">
-                    <h6 class="widget-title mb-5">Subscribe to our newsletter</h6>
-                    <form action="#" method="post" class="subscribe-form">
-                        <input type="email" name="subscribe-email" id="subscribeemail" placeholder="Your E-mail">
-                        <button type="submit">Subscribe</button>
-                    </form>
-                </div>
-            </div>
 
-            <!-- Copywrite Text -->
-            <div class="col-12">
-                <div class="copywrite-text mt-30">
-                    <p><a href="#"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> <i class="fa fa-heart-o" aria-hidden="true"></i> 
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
-</footer>
+      </div>
+    </footer>
+
+
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

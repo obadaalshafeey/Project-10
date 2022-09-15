@@ -22,6 +22,7 @@ return new class extends Migration
             $table->integer('rooms_id');
             $table->integer('user_id');
             $table->decimal('total_price');
+            $table->boolean('active')->default('1');
             $table->enum('payment', ['cash','online']);
 
             $table->timestamps();

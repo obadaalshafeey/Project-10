@@ -3,6 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RoomsController;
 use App\Http\Controllers\BookingController;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+use App\Http\Controllers\HomeController; 
+
 
 /*
 |--------------------------------------------------------------------------
@@ -29,7 +33,8 @@ Route::get('/', function () {
 Route::get('/resrvition/id/{room_id}',[RoomsController::class,'room']);
 Route::get('/book1',[RoomsController::class,'book1']);
 Route::post('/book1',[BookingController::class,'book1']);
-Route::get('/book2',[RoomsController::class,'book2']);
+Route::get('/out',[BookingController::class,'logout']);
+Route::get('/book2',[RoomsController::class,'book2'])->middleware('book2');
 Route::post('/book22',[RoomsController::class,'book22']);
 
 Auth::routes();
@@ -53,3 +58,33 @@ Route::get('/ContactUs', function () {
 });
 
 
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
+
+
+
+// $this->group([   'middleware' => 'Language'], function () {
+// 	Route::get('/home1',"\App\Http\Controllers\HomeController@index");
+// 	Route::get('/change-language/{lang}',"\App\Http\Controllers\HomeController@changeLang");
+// });
+
+
+
+Route::get('send', 'HomeController@sendNotification');
+Route::resource('home', HomeController::class);
+Route::resource('home', 'HomeController'); // It is okkk
+Route::get('/home', 'App\Http\Controllers\HomeController@index')->name('home');
+
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});

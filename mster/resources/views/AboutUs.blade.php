@@ -1,5 +1,6 @@
 @extends('layout.master')
 @section('content')
+@section('css','contact.css')
 
 
 <!-- ##### Breadcumb Area Start ##### -->
