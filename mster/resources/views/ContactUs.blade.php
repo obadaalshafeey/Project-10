@@ -1,7 +1,7 @@
 @extends('layout.master')
 @section('content')
 @section('css','contact.css')
-<div class="hero" style="background-image: url('https://img.freepik.com/free-photo/arab-people-with-camel-caravan_1004-19.jpg?w=996&t=st=1663005773~exp=1663006373~hmac=c1d7fe4373c783c1b30a458a36a3847b12209c670d915efa6d453a562ae0deb0');"></div>
+<div class="hero" style="background-image: url('https://cdn.discordapp.com/attachments/986725547860168725/1024328360320577607/nbvj_g2zk_220121.jpg');"></div>
 <div class="col-12 col-lg-4">
     <div class="single-contact-information mb-100">
         <div class="section-text">
@@ -27,7 +27,7 @@
 </div>
 
 <!-- Single Contact Information -->
-<div class="col-12 col-lg-4">
+{{-- <div class="col-12 col-lg-4">
     <div class="single-contact-information mb-100">
         <div class="section-text">
             <h3>Los Angeles</h3>
@@ -74,7 +74,7 @@
             <p>yourmail@gmail.com</p>
         </div>
     </div>
-</div>
+</div> --}}
 
 </div>
 </div>

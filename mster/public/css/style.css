@@ -887,7 +887,7 @@ img {
     transform: translateX(-50%);
     padding: 10px 15px;
     background-color: #181818;
-    border: 2px solid #cb8670;
+    border: 2px solid #ffffff;
     display: inline-block;
     margin-bottom: 0;
     line-height: 1;
@@ -902,14 +902,14 @@ img {
     right: 20px;
     bottom: 20px;
     width: calc(100% - 40px);
-    border: 2px solid #cb8670;
+    border: 2px solid #ffffff;
     text-align: center;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms; }
     .single-rooms-area .rooms-text .line {
       width: 90px;
       height: 2px;
-      background-color: #cb8670;
+      background-color: #ffffff;
       display: block;
       margin: 0 auto 20px; }
     .single-rooms-area .rooms-text h4 {
@@ -948,8 +948,8 @@ img {
       font-size: 14px; }
       .pagination-area .pagination .page-item .page-link:hover, .pagination-area .pagination .page-item .page-link:focus {
         color: #ffffff;
-        background-color: #616161;
-        border: 2px solid #cb8670;
+        background-color: #000000;
+        border: 2px solid #ffffff;
         box-shadow: none; }
     .pagination-area .pagination .page-item:first-child .page-link {
       margin-left: 0;
@@ -960,8 +960,8 @@ img {
       border-bottom-right-radius: 0; }
     .pagination-area .pagination .page-item.active .page-link {
       color: #ffffff;
-      background-color: #616161;
-      border: 2px solid #cb8670; }
+      background-color: #000000;
+      border: 2px solid #ffffff; }
 
 /* :: 10.0 Services Area CSS */
 .services-intro {
@@ -1427,7 +1427,7 @@ img {
   z-index: 1;
   width: 200px;
   padding: 35px 15px;
-  border: 2px solid #cb8670;
+  border: 2px solid #ffffff;
   text-align: center;
   background-color: #363636;
   margin: 0 auto;

@@ -1,8 +1,8 @@
 @extends('layout.master')
 @section('content')
-<div class="hero" style="background-image: url('https://img.freepik.com/free-photo/arab-people-with-camel-caravan_1004-19.jpg?w=996&t=st=1663005773~exp=1663006373~hmac=c1d7fe4373c783c1b30a458a36a3847b12209c670d915efa6d453a562ae0deb0');">
+<div class="hero" style="background-image: url('https://cdn.discordapp.com/attachments/986725547860168725/1024328361100705842/2658.jpg');">
 <p  style="font-family: 'Courier New', Courier, monospace  ; font-size: 30px;   text-align: center;
-   padding: 350px 0;
+   padding: 350px 0; color:black
 "
 >The world is a book and those who do not travel read only one page</p>
 
@@ -96,12 +96,12 @@
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-12 col-lg-7">
-                <div class="pool-content text-center wow fadeInUp" data-wow-delay="300ms">
-                    <div class="section-heading text-center white">
+                {{-- <div class="pool-content text-center wow fadeInUp" data-wow-delay="300ms">
+                    <div class="section-heading text-center white"> --}}
                         {{-- <div class="line-"></div> --}}
-                        <h2>Nuzol</h2>
+                        {{-- <h2>Nuzol</h2>
                         <p>Makes you feel like you are at home. Kitchen utensils can be used as if they were your own, and cooking is a wonderful experience for someone who looks like your home.</p>
-                    </div>
+                    </div> --}}
 
                     {{-- <div class="row">
                         <div class="col-12 col-sm-4">
@@ -124,8 +124,8 @@
                         </div>
                     </div> --}}
                     <!-- Button -->
-                    <a href="#" class="btn palatin-btn mt-50">Read More</a>
-                </div>
+                    {{-- <a href="#" class="btn palatin-btn mt-50">Read More</a>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -144,13 +144,13 @@
     <!-- Contact Info -->
     <div class="contact-info">
         <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
-            <div class="line-"></div>
+            {{-- <div class="line-"></div> --}}
             <h2>Contact Info</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+            <p>AQABA-JORDAN</p>
         </div>
-        <h4 class="wow fadeInUp" data-wow-delay="300ms">Los Angeles 1481 Creekside Lane Avila Beach, CA 931</h4>
-        <h5 class="wow fadeInUp" data-wow-delay="400ms">+53 345 7953 32453</h5>
-        <h5 class="wow fadeInUp" data-wow-delay="500ms">yourmail@gmail.com</h5>
+        <h4 class="wow fadeInUp" data-wow-delay="300ms">AMMAN </h4>
+        <h5 class="wow fadeInUp" data-wow-delay="400ms">+9620798365510</h5>
+        <h5 class="wow fadeInUp" data-wow-delay="500ms">OBADA.M.ALSHAFEEY@GMAIL.COM</h5>
         <!-- Social Info -->
         <div class="social-info mt-50 wow fadeInUp" data-wow-delay="600ms">
             <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>

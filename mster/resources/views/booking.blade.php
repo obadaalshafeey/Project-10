@@ -1,8 +1,7 @@
 @extends('layout.master')
 
 @section('content')
-<!DOCTYPE html>
-<x-app-layout>
+
 
 <html lang="en">
 
@@ -46,6 +45,7 @@
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam numquam at</p>
 							</div>
 						</div>
+						
 						<form action="/book1" method="POST">
 							@csrf
 							<div class="row">
@@ -131,7 +131,7 @@
 </body>
 
 </html>
-</x-app-layout>
+
 
 @endsection
 

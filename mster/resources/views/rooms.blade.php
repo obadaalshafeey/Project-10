@@ -1,14 +1,12 @@
-{{-- 
-    @extends('layout.master')
-    @section('content')
-    @section('css','contact.css') --}}
-  
 
     @extends('layout.master')
     @section('content')
+    @section('css','contact.css')
+  
+
   
     
-  <x-app-layout>
+
     <!-- ##### Rooms Area Start ##### -->
     <section class="rooms-area section-padding-0-100">
         <div class="container">
@@ -21,9 +19,13 @@
                     </div>
                 </div>
             </div>
-
+            @if (session('message'))
+            <div class="alert alert-success mb-5 " role="alert">
+                {{session('message')}}
+            </div>
+            @endif
             <div class="row">
-
+              
                 <!-- Single Rooms Area -->
                 @foreach ($collection as $item)                
                 <div class="col-12 col-md-6 col-lg-4">
@@ -43,7 +45,9 @@
                             <p>{{$item->des}}</p>
                         </div>
                         <!-- Book Room -->
-                        <a href="{{ url('resrvition/id/'.$item->id) }}" class="book-room-btn btn palatin-btn">booking</a>
+                        {{-- <a href="{{ URL::to('/resrvition',$item->id) }}"></a> --}}
+
+                        <a href="{{ URL::to('/resrvition',$item->id) }}" class="book-room-btn btn palatin-btn  " style='background:white'>booking</a>
                     </div>
                     <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/1.jpg);"></div>
 
@@ -79,5 +83,5 @@
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-</x-app-layout>
-@endsection
+
+    @endsection

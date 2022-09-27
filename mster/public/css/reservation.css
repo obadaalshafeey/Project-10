@@ -1,0 +1,11 @@
+.site-navbar .site-navigation .site-menu > li > a,
+.site-navbar .site-logo,
+.btn.btn-outline-white {
+    color: black !important;
+}
+.site-navbar .site-navigation .site-menu > li > a:hover{
+    color: black;
+}
+.site-navbar .site-logo a {
+    color: black;
+}

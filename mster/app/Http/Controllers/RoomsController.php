@@ -56,11 +56,11 @@ class RoomsController extends Controller
             'payment'=>'required',
          
         ]);
-        if ( $request->session()->has('loginin')){
+        if (isset(Auth::user()->id)){
     
         $create=new Booking();
         $create->rooms_id=$request->input('rooms_id');
-      
+     
         $create->payment=$request->input('payment');
         $diff =Carbon::parse(session('check_out'))->diffInDays(Carbon::parse(session('check_in')));
         $room=rooms::find($create->rooms_id);
@@ -80,7 +80,8 @@ class RoomsController extends Controller
         $request->session()->forget('payment');
         $request->session()->forget('rooms_id');
         $request->session()->forget('data');
-return redirect('/room');}
+return redirect('/room')->with('message','The booking has been added successfully');
+}
 else{
     $request->session()->put('rooms_id',  $request->input('rooms_id'));
     $request->session()->put('payment',  $request->input('payment'));
