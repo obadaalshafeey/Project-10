@@ -5,7 +5,7 @@
   
 
   
-    
+    <br><br><br><br><br>
 
     <!-- ##### Rooms Area Start ##### -->
     <section class="rooms-area section-padding-0-100">

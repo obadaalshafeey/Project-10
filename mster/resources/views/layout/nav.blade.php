@@ -119,7 +119,7 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav m-auto ">
                   <li><a href="{{ url("landeing")}}" class="nav-link active ml-5">Home</a></li>
-                  <li><a href="{{ url("book1")}}"class="nav-link active">Booking</a></li>
+                  {{-- <li><a href="{{ url("book1")}}"class="nav-link active">Booking</a></li> --}}
                   <li >
                     <a href="{{ url("room")}}"class="nav-link active">Rooms</a>
                     

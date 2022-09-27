@@ -1081,7 +1081,7 @@ img {
 .testimonial-content {
   position: relative;
   z-index: 1;
-  border: 2px solid #cb8670;
+  border: 2px solid #000000;
   background-color: #ffffff;
   padding: 100px;
   width: 100%; }
