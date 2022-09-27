@@ -2,11 +2,12 @@
 @section('content')
 @section('css','contact.css')
 <div class="hero" style="background-image: url('https://cdn.discordapp.com/attachments/986725547860168725/1024328360320577607/nbvj_g2zk_220121.jpg');"></div>
+<br><br>
 <div class="col-12 col-lg-4">
     <div class="single-contact-information mb-100">
         <div class="section-text">
-            <h3>Ibiza</h3>
-            <p>Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum.</p>
+            <h3>AQABA-JORDAN</h3>
+            {{-- <p>Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum.</p> --}}
         </div>
         <!-- Single Contact Information -->
         <div class="contact-content d-flex">
@@ -16,12 +17,12 @@
         <!-- Single Contact Information -->
         <div class="contact-content d-flex">
             <p>Phone</p>
-            <p>+36 345 7953 4994</p>
+            <p>+962 798365510</p>
         </div>
         <!-- Single Contact Information -->
         <div class="contact-content d-flex">
             <p>E-mail</p>
-            <p>yourmail@gmail.com</p>
+            <p>obada.m.alshafeey@gmail.com</p>
         </div>
     </div>
 </div>

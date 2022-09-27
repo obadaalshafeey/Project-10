@@ -153,12 +153,10 @@
         <h5 class="wow fadeInUp" data-wow-delay="500ms">OBADA.M.ALSHAFEEY@GMAIL.COM</h5>
         <!-- Social Info -->
         <div class="social-info mt-50 wow fadeInUp" data-wow-delay="600ms">
-            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/home"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          
+            <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
     </div>
 </section>

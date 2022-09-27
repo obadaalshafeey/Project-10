@@ -182,7 +182,7 @@ img {
   .section-heading .line- {
     width: 90px;
     height: 2px;
-    background-color: #cb8670;
+    background-color: #000000;
     display: block;
     margin-bottom: 40px; }
   .section-heading h2 {
@@ -1305,7 +1305,11 @@ img {
 
 .single-contact-information {
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+ 
+  justify-content: center;
+  align-items: center;
+}
   .single-contact-information .section-text {
     position: relative;
     z-index: 1;
@@ -1328,7 +1332,7 @@ img {
       margin-bottom: 0; }
     .single-contact-information .contact-content p:first-child {
       font-size: 18px;
-      color: #cb8670;
+      color: #000000;
       margin-bottom: 0;
       -webkit-box-flex: 0;
       -ms-flex: 0 0 90px;
