@@ -16,7 +16,7 @@
   @foreach ($data2 as $img)
       
     <div class="card">
-      <img src={{$img->img_link}} class="card-img-top" alt="...">
+      <img style="height: 50vh" src={{$img->img_link}} class="card-img-top" alt="..." >
      
     </div>
    

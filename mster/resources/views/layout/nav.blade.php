@@ -121,7 +121,7 @@
                   <li><a href="{{ url("landeing")}}" class="nav-link active ml-5">Home</a></li>
                   {{-- <li><a href="{{ url("book1")}}"class="nav-link active">Booking</a></li> --}}
                   <li >
-                    <a href="{{ url("room")}}"class="nav-link active">Rooms</a>
+                    <a href="{{ url("room")}}"class="nav-link active">Apartments</a>
                     
                   </li>
                   <li><a href="{{ url("AboutUs")}}"class="nav-link active">About Us</a></li>
